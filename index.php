@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
         <p>Inserisci un paragrafo di testo e una parola da censurare...</p>
 
         <!-- Form -->
-        <form>
+        <form action="result.php" method="GET">
             <!-- Bad words -->
             <div data-mdb-input-init class="form-outline mb-4 mt-4">
                 <input type="text" id="badwords" class="form-control" name="badwords" />
