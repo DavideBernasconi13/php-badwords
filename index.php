@@ -18,7 +18,7 @@
         <form action="result.php" method="POST">
             <!-- Bad words -->
             <div data-mdb-input-init class="form-outline mb-4 mt-4">
-                <input type="text" id="badwords" class="form-control" name="badwords" />
+                <input type="text" id="badwords" class="form-control" name="badwords">
                 <label class="form-label" for="badwords">Parola da censurare</label>
             </div>
             <!-- Message -->

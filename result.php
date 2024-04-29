@@ -7,6 +7,7 @@ $badwords = $_POST["badwords"];
 $message = $_POST["message"];
 $newmessage = str_replace($badwords, "***", $message);
 $lunghezza = strlen($message);
+$newlunghezza = strlen($newmessage);
 
 // echo var_dump($message);
 ?>
@@ -27,5 +28,6 @@ $lunghezza = strlen($message);
         Il tuo messaggio è: <?php echo $message ?></p>
         <p>La lunghezza della stringa è: <?php echo $lunghezza ?> caratteri. </p>
         <p>Il tuo nuovo messaggio è: <?php echo $newmessage ?></p>
+        <p>La nuova lunghezza della stringa è: <?php echo $newlunghezza ?> caratteri. </p>
 
 </body>
