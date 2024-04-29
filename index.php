@@ -10,9 +10,30 @@
 </head>
 
 <body>
-    <div class="container bg">
-        <h1 class="bg-danger text-center text-light ">Bad words</h1>
+    <div class="container">
+        <h1 class="bg-danger text-center text-light">Bad words</h1>
+        <p>Inserisci un paragrafo di testo e una parola da censurare...</p>
+
+        <!-- Form -->
+        <form>
+            <!-- Bad words -->
+            <div data-mdb-input-init class="form-outline mb-4 mt-4">
+                <input type="text" id="badwords" class="form-control" name="badwords" />
+                <label class="form-label" for="badwords">Parola da censurare</label>
+            </div>
+            <!-- Message -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <textarea class="form-control" id="message" rows="4" name="message"></textarea>
+                <label class="form-label" for="message">Scrivi il tuo messaggio</label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-success btn-block w-100">
+                Invia
+            </button>
+        </form>
     </div>
+
 </body>
 
 </html>
